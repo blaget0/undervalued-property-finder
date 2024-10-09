@@ -1,6 +1,7 @@
 Binary classification to find undervalued property. 
 
 Models used: random forest(with threshold probability), linear regression, KNN.
+
 Dataset: https://www.kaggle.com/datasets/egorkainov/moscow-housing-price-dataset?resource=download
 
 Classification models are trained with a modified dataset, where in random rows a certain value (delta) is subtracted from the price column and a positive label is placed in a new column (the target feature).
